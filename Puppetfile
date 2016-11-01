@@ -5,7 +5,7 @@ forge "http://forge.puppetlabs.com"
 #mod "puppetlabs/inifile",     '1.5.0'
 #mod "puppetlabs/stdlib",      '4.11.0'
 #mod "puppetlabs/concat",      '2.1.0'
-mod "puppetlabs-motd", 'latest'
+mod "puppetlabs/motd", 'latest'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
@@ -18,5 +18,5 @@ mod "puppetlabs-motd", 'latest'
 #  :branch => 'docs_experiment'
 
 # Service Master repos from TFS.
-mod 'puppet-module-temeplate',
-  :git => 'ssh://tfs-svm@tfs-svm.visualstudio.com:22/DevOps/_git/Puppet-Module-Template'
+mod 'puppet_module_template',
+  :git => 'ssh://tfs-svm@tfs-svm.visualstudio.com:22/DevOps/_git/Puppet_Module_Template'
