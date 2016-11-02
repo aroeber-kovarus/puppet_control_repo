@@ -1,2 +1,2 @@
 ---
-myclass::parameter_one: "This is the development configuration." 
+node_parameter_one: "This is useing the development node configuration."
