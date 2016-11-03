@@ -1,2 +1,2 @@
 ---
-node_parameter_one: "This is useing the development node configuration."
+mytest::node_parameter_one: "This is useing the development node configuration."

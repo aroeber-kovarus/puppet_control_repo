@@ -1,2 +1,5 @@
 ---
 message: "This node is using development common data"
+
+classes:
+  - mytest
