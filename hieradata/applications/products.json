@@ -1,9 +1,0 @@
-{
- "description": "Procucts API",
- "id": "account-api",
- "links": [{
-   "href": "https://accounts.ourapi.com",
-   "rel": "self"
- }],
- "title": "Products"
-}
