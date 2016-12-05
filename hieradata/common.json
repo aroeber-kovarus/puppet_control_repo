@@ -1,3 +1,9 @@
 {
+<<<<<<< HEAD
   "message" : "This is the development common json test"
 }
+=======
+  "my-json" : "This is the production common json test"
+}
+
+>>>>>>> 2a99050862519bf6d433b8f9f9b7a161ec66b0d4
