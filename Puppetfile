@@ -24,3 +24,7 @@ mod 'puppetlabs-dsc', :latest
 # Service Master repos from TFS.
 mod 'puppet_module_template',
   :git => 'ssh://tfs-svm@tfs-svm.visualstudio.com:22/DevOps/_git/Puppet_Module_Template'
+
+mod 'puppet_module_apideploy',
+  :git => 'ssh://tfs-svm@tfs-svm.visualstudio.com:22/DevOps/_git/Puppet_Module_API_Deployment',
+  :branch => 'development'
