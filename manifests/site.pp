@@ -30,3 +30,7 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
+
+node 'abscssapi06p.biz.es.svm.com' {
+  include apideploy
+  }
