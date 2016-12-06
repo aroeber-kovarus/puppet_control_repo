@@ -22,9 +22,6 @@ mod 'puppetlabs-dsc', '1.2.0'
 #  :branch => 'docs_experiment'
 
 # Service Master repos from TFS.
-mod 'puppet_module_template',
-  :git => 'ssh://tfs-svm@tfs-svm.visualstudio.com:22/DevOps/_git/Puppet_Module_Template'
-
 mod 'puppet_module_apideploy',
   :git => 'ssh://tfs-svm@tfs-svm.visualstudio.com:22/DevOps/_git/Puppet_Module_API_Deployment',
   :branch => 'production'
