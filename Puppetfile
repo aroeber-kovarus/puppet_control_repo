@@ -8,7 +8,8 @@ forge "http://forge.puppetlabs.com"
 mod "puppetlabs/registry", :latest
 mod "puppetlabs-stdlib", :latest
 mod "puppetlabs/motd", :latest
-mod 'puppet-iis', '2.0.2'
+mod 'lwf-remote_file', :latest
+mod 'puppetlabs-dsc', :latest
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
