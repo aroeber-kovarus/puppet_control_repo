@@ -8,9 +8,10 @@ forge "http://forge.puppetlabs.com"
 mod "puppetlabs/registry", :latest
 mod "puppetlabs-stdlib", :latest
 mod "puppetlabs/motd", :latest
-mod 'lwf-remote_file', :latest
+#mod 'lwf-remote_file', :latest
 mod 'puppetlabs-dsc', :latest
-
+mod 'puppetlabs-powershell', :latest
+mod 'puppetlabs-reboot', :latest
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
