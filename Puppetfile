@@ -7,7 +7,7 @@ forge "http://forge.puppetlabs.com"
 #mod "puppetlabs/concat",      '2.1.0'
 mod 'puppetlabs-stdlib', '4.13.1'
 mod 'lwf-remote_file', '1.1.3'
-mod 'puppetlabs-powershell', '2.1.0'
+mod 'puppetlabs-powershell', :latest
 mod 'puppetlabs-reboot', '1.2.1'
 mod 'puppetlabs-dsc', '1.2.0'
 mod 'puppetlabs-acl', '1.1.2'
