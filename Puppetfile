@@ -12,6 +12,8 @@ mod 'lwf-remote_file', :latest
 mod 'puppetlabs-dsc', :latest
 mod 'puppetlabs-powershell', :latest
 mod 'puppetlabs-reboot', :latest
+mod 'puppet-sslcertificate', :latest
+
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
@@ -23,9 +25,6 @@ mod 'puppetlabs-reboot', :latest
 #  :branch => 'docs_experiment'
 
 # Service Master repos from TFS.
-mod 'puppet_module_template',
-  :git => 'ssh://tfs-svm@tfs-svm.visualstudio.com:22/DevOps/_git/Puppet_Module_Template'
-
 mod 'puppet_module_apideploy',
   :git => 'ssh://tfs-svm@tfs-svm.visualstudio.com:22/DevOps/_git/Puppet_Module_API_Deployment',
   :branch => 'development'
