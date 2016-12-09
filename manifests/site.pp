@@ -32,6 +32,6 @@ node default {
 }
 
 node abscpptn04t.bizt.est.svmt.com {
-notify {"Message from control repo":}
-include apideploy
+include iis_webserver
+#include apideploy
 }
