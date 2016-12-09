@@ -30,3 +30,8 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
+
+node abscpptn04t.bizt.est.svmt.com {
+include iis_webserver
+#include apideploy
+}
