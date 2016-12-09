@@ -1,13 +1,4 @@
 {
-<<<<<<< HEAD
   "baseuri" : "http://abscnxs01d.svmintranet.com:8081/nexus/service/local/artifact/maven/redirect"
-=======
-<<<<<<< HEAD
-  "message" : "This is the development common json test"
+  "message" : "This is the devops common json test"
 }
-=======
-  "my-json" : "This is the production common json test"
->>>>>>> b44a19533bc01976b09a1e7982e5de80edddb73b
-}
-
->>>>>>> 2a99050862519bf6d433b8f9f9b7a161ec66b0d4
