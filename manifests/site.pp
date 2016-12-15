@@ -27,6 +27,7 @@ File { backup => false }
 # specified in the console for that node.
   #   class { 'my_class': }
 node abscpptn04t.bizt.est.svmt.com {
-include iis_webserver
+#include iis_webserver
 #include apideploy
+include agentdesktop
 }

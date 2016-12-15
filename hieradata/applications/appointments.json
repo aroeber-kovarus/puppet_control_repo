@@ -2,5 +2,5 @@
  "artifactname" : "Appointments",
  "version"      : "V3",
  "nexus_repo"   : "servsmart_test_pac_live",
- "groupid"      : "API.PROD"
+ "groupid"      : "API.DEV"
 }
