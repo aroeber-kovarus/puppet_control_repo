@@ -29,9 +29,9 @@ File { backup => false }
 node abscpptn04t.bizt.est.svmt.com {
 #include iis_webserver
 #include apideploy
-include agentdesktop
+include apideploy
 }
 
-node 'abscssapi06p.biz.es.svm.com' {
-  include apideploy
-  }
+#node 'abscssapi06p.biz.es.svm.com' {
+#  include apideploy
+#  }
