@@ -26,11 +26,11 @@ File { backup => false }
 # will be included in every node's catalog, *in addition* to any classes
 # specified in the console for that node.
   #   class { 'my_class': }
-node abscpptn04t.bizt.est.svmt.com {
+#node abscpptn04t.bizt.est.svmt.com {
 #include iis_webserver
 #include apideploy
-include apideploy
-}
+#include apideploy
+#}
 
 #node 'abscssapi06p.biz.es.svm.com' {
 #  include apideploy
