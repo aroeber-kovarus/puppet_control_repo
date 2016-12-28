@@ -31,6 +31,6 @@ node default {
   #   class { 'my_class': }
 }
 
-node 'abscssapi06p.biz.es.svm.com' {
-  include apideploy
-  }
+#node 'abscssapi06p.biz.es.svm.com' {
+#  include apideploy
+#  }
