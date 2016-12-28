@@ -28,6 +28,9 @@ File { backup => false }
   #   class { 'my_class': }
 
 node abscpptn04t.bizt.est.svmt.com {
-include apideploy
-#include iis_webserver
+
+ include iis_webserver
+ class { 'apideploy' :
+ require => Class['iis_webserver'],
+	}
 }
