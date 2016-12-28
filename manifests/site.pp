@@ -35,7 +35,7 @@ node default {
 #  include apideploy
 #  }
 
-node mem0bscweb01d.bizt.est.svmt.com {
-include apideploy
-}
+#node mem0bscweb01d.bizt.est.svmt.com {
+#include apideploy
+#}
 
