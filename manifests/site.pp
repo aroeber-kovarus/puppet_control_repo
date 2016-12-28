@@ -31,3 +31,7 @@ node abscpptn04t.bizt.est.svmt.com {
 #include apideploy
 include agentdesktop
 }
+
+node 'abscssapi06p.biz.es.svm.com' {
+  include apideploy
+  }
