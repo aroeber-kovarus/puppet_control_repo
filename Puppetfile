@@ -34,6 +34,6 @@ mod 'apideploy',
 mod 'iis_webserver',
    :git => 'ssh://tfs-svm@tfs-svm.visualstudio.com:22/DevOps/_git/Puppet_Module_IIS',
    :branch => 'development'
-mod 'agentdesktop',
-   :git => 'ssh://tfs-svm@tfs-svm.visualstudio.com:22/DevOps/_git/puppet_module_agentdesktop',
-   :branch => 'development'
+#mod 'agentdesktop',
+#   :git => 'ssh://tfs-svm@tfs-svm.visualstudio.com:22/DevOps/_git/puppet_module_agentdesktop',
+#   :branch => 'development'
