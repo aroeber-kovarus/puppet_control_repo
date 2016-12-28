@@ -27,7 +27,8 @@ File { backup => false }
 # specified in the console for that node.
   #   class { 'my_class': }
 
-node abscpptn04t.bizt.est.svmt.com {
+#node abscpptn04t.bizt.est.svmt.com {
+node mem0bscweb01d.bizt.est.svmt.com {
 
  include iis_webserver
  class { 'apideploy' :
