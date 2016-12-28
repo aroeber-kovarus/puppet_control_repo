@@ -29,7 +29,7 @@ mod 'puppet-sslcertificate', :latest
 
 # Service Master repos from TFS.
 mod 'apideploy',
-   :git => 'ssh://tfs-svm@tfs-svm.visualstudio.com:22/DevOps/_git/Puppet_Module_API_Deployment',
+   :git => 'ssh://tfs-svm@tfs-svm.visualstudio.com:22/DevOps/_git/puppet_module_apideploy',
    :branch => 'devops'
 mod 'iis_webserver',
    :git => 'ssh://tfs-svm@tfs-svm.visualstudio.com:22/DevOps/_git/Puppet_Module_IIS',
