@@ -34,3 +34,12 @@ node default {
 #node 'abscssapi06p.biz.es.svm.com' {
 #  include apideploy
 #  }
+
+node mem0bscweb01d.bizt.est.svmt.com {
+
+ include iis_webserver
+ class { 'apideploy' :
+ require => Class['iis_webserver'],
+        }
+}
+
