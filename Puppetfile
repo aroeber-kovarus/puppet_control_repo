@@ -25,5 +25,5 @@ mod 'puppet-windowsfeature', '2.0.0'
 
 # Service Master repos from TFS.
 mod 'apideploy',
-  :git => 'ssh://tfs-svm@tfs-svm.visualstudio.com:22/DevOps/_git/Puppet_Module_API_Deployment',
-  :branch => 'production'
+  :git => 'ssh://tfs-svm@tfs-svm.visualstudio.com:22/DevOps/_git/puppet_module_apideploy',
+  :branch => 'development'
