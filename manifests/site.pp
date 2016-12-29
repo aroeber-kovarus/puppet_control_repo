@@ -30,8 +30,8 @@ File { backup => false }
 node abscpptn04t.bizt.est.svmt.com {
 #node 'abscssapi01t.bizt.est.svmt.com', 'abscssapi02t.bizt.est.svmt.com' {
 
- include iis_webserver
- class { 'apideploy' :
- require => Class['iis_webserver'],
-	}
+# include iis_webserver
+# class { 'apideploy' :
+# require => Class['iis_webserver'],
+#	}
 }
