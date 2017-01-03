@@ -20,12 +20,12 @@ mod 'puppet-windowsfeature', '2.0.0'
 #  :commit => '83401079053dca11d61945bd9beef9ecf7576cbf'
 
 # Service Master repos from TFS.
-mod 'apideploy',
-  :git => 'ssh://tfs-svm@tfs-svm.visualstudio.com:22/DevOps/_git/puppet_module_apideploy',
-  :branch => :control_branch
-mod 'iis_webserver',
-   :git => 'ssh://tfs-svm@tfs-svm.visualstudio.com:22/DevOps/_git/Puppet_Module_IIS',
-   :branch => :control_branch
+#mod 'apideploy',
+#  :git => 'ssh://tfs-svm@tfs-svm.visualstudio.com:22/DevOps/_git/puppet_module_apideploy',
+#  :branch => :control_branch
+#mod 'iis_webserver',
+#   :git => 'ssh://tfs-svm@tfs-svm.visualstudio.com:22/DevOps/_git/Puppet_Module_IIS',
+#   :branch => :control_branch
 #mod 'agentdesktop',
 #   :git => 'ssh://tfs-svm@tfs-svm.visualstudio.com:22/DevOps/_git/puppet_module_agentdesktop',
 #   :branch => :control_branch
