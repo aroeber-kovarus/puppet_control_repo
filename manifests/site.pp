@@ -34,12 +34,6 @@ File { backup => false }
 
 #node 'abscssapi06p.biz.es.svm.com' {
 #  include apideploy
-#  }
-<<<<<<< HEAD
-
-#node mem0bscweb01d.bizt.est.svmt.com {
-#include apideploy
 #}
 
-=======
->>>>>>> 950cae86e13cbe7a17edcef07f1a792e3374e8d6
+
