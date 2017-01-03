@@ -1,5 +1,6 @@
 ## site.pp ##
-
+#remove this
+#hiera_include('classes')
 # This file (/etc/puppetlabs/puppet/manifests/site.pp) is the main entry point
 # used when an agent connects to a master and asks for an updated configuration.
 #
@@ -24,18 +25,21 @@ File { backup => false }
 # definition. If there are no other nodes in this file, classes declared here
 # will be included in every node's catalog, *in addition* to any classes
 # specified in the console for that node.
-
-node default {
-  # This is where you can declare classes for all nodes.
-  # Example:
   #   class { 'my_class': }
-}
+#node abscpptn04t.bizt.est.svmt.com {
+#include iis_webserver
+#include apideploy
+#include apideploy
+#}
 
 #node 'abscssapi06p.biz.es.svm.com' {
 #  include apideploy
 #  }
+<<<<<<< HEAD
 
 #node mem0bscweb01d.bizt.est.svmt.com {
 #include apideploy
 #}
 
+=======
+>>>>>>> 950cae86e13cbe7a17edcef07f1a792e3374e8d6
