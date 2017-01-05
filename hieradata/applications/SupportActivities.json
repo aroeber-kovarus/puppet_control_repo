@@ -1,0 +1,4 @@
+        'SupportActivities' => {
+         version      => "V3",
+         artifactname => "SupportActivities",
+    url => "http://abscnxs01d.svmintranet.com:8081/nexus/service/local/artifact/maven/redirect?r=servsmart_test_pac&g=API.DEV.V3&a=SupportActivities&v=RELEASE&p=MSI",

@@ -1,0 +1,4 @@
+        'Locationss' => {
+          version      => "V3",
+          artifactname => "Locations",
+   url => "http://abscnxs01d.svmintranet.com:8081/nexus/service/local/artifact/maven/redirect?r=servsmart_test_pac&g=API.DEV.V3&a=Locations&v=RELEASE&p=MSI",

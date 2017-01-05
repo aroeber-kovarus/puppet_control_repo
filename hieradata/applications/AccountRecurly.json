@@ -1,0 +1,4 @@
+        'AccountRecurly' => {
+          version      => "Webhooks",
+          artifactname => "AccountRecurly",
+   url => "http://abscnxs01d.svmintranet.com:8081/nexus/service/local/artifact/maven/redirect?r=servsmart_test_pac&g=API.DEV.webhooks&a=AccountRecurly&v=RELEASE&p=MSI",

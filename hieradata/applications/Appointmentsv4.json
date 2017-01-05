@@ -1,0 +1,4 @@
+        'Appointmentsv4' => {
+          version      => "V4",
+          artifactname => "Appointments",
+    url       => "http://abscnxs01d.svmintranet.com:8081/nexus/service/local/artifact/maven/redirect?r=servsmart_test_pac&g=API.DEV.V4&a=Appointments&v=RELEASE&p=MSI",
